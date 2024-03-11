@@ -26,3 +26,10 @@ A bullet list:
 You can add an impage that has been uploaded to the repository in a /docs/assets/images folder.
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/Code.png" width="400" height="300">
+
+---
+layout: post
+title: A Project in Modern C++
+tags: cpp coding project
+categories: demo
+---
