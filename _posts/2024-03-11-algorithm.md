@@ -27,6 +27,12 @@ I then scrolled to the bottom of the ascii table and saw after `~` the next symb
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/RandomSymbol.png" width="600" height="100">
 
+With this random sybmol code I could now print random symbols to the console like so
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/randomSymbol2.png" width="600" height="400">
+
+
+
 
 
 
