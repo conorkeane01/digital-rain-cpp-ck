@@ -13,6 +13,12 @@ Starting out I first wanted to print a basic letter to the console. For the digi
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/randomLetter.png" width="600" height="100">
 
+I used the code above to get my random letter. This is done by doing the following. rand() % 26 + 'a' uses the ascii value of 'a', and selects a random integer within the range of 0 to 25. This means the random letter can be any lowercase letter between a to z. The static_cast<char> changes the random letter from an integer to a char value. This is needed as my vecture will print characters.
+
+I did not want to have my random characters for my digital rain to be limited to just the 26 characters of the alphabet, and be lowercase. To extend this random function I took a look at the ascii table.
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/randomSymbol.png" width="600" height="100">
+
 
 
 
