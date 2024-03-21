@@ -18,4 +18,4 @@ The vlog is broken into the following sections
 
 
 
-[Algorithm](2024-03-11-algorithm.md)
+[Algorithm](https://conorkeane01.github.io/digital-rain-cpp-ck/demo/2024/03/11/algorithm.html)
