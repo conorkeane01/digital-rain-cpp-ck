@@ -5,4 +5,6 @@ tags: cpp coding project
 categories: demo
 ---
 
-This is my first paragraph...
+## Introduction to my C++ Digital Rain Project
+
+
