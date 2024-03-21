@@ -17,11 +17,11 @@ I used the code above to get my random letter. This is done by doing the followi
 
 I did not want to have my random characters for my digital rain to be limited to just the 26 characters of the alphabet, and be lowercase. To extend this random function I took a look at the ascii table.
 
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/ascii1.png" width="600" height="100">
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/ascii1.png" width="600" height="400">
 
 From this image I saw the `!` syboml was the first single symbol. I did not want any symbols that had more than two characters, for example `sp` had two symbols and is described as a space. I did not want to pick this one as it could cause problems in my algorithm.
 
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/ascii2.png" width="600" height="100">
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/ascii2.png" width="600" height="400">
 
 I then scrolled to the bottom of the ascii table and saw after `~` the next symbol was delete and I did not want this symbol incase it messed with my algorithm. So i chose the range to be between 0 and 126
 
