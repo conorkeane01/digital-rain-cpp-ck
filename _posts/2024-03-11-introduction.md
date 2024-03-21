@@ -16,6 +16,28 @@ The vlog is broken into the following sections
   - Modern C++
   - Design and Test
 
+This project is about printing a digital rain or "Matrix" affect to the console.
+The IDE used in this project is Microsoft Visual Studio. This IDE is ideal for c++ programming due to its c++ extensions as well as its affective ability to help debug code. 
+The project code is written using modern C++. This means using modern c++ coding styles like 
+  - Using the standard library
+  - Using Vectors instead of raw arrays
+  - Using standard library algorithms
+  - Following the C++ Core Guidelines
+
+The project is programmed using an Object Oriented (OO) design and programming style also.
+To achieve this the projects files are broken up into
+  - Main.cpp
+      - This file will have little code and will be kept clean.
+  - Matrix.cpp
+      - This file will contain memeber functions or methods definitions.
+      - Will be made up of constructors and deconstructors
+      - The algorithm used to print the digital rain will be in this file
+  - TestMatrix.cpp
+  - Matrix.h
+      - This header file will have the matrix class definition
+      - Made up of both public and private class member data
+  -TestMatrix.h
+
 
 
 [Algorithm](https://conorkeane01.github.io/digital-rain-cpp-ck/demo/2024/03/11/algorithm.html)
