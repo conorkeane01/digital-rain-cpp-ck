@@ -17,3 +17,5 @@ The vlog is broken into the following sections
   - Design and Test
 
 
+
+[Algorithm](2024-03-11-algorithm.md)
