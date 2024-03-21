@@ -31,6 +31,12 @@ With this random sybmol code I could now print random symbols to the console lik
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/randomSymbol2.png" width="600" height="400">
 
+To print these random sybmols and characters like the screenshot above I used this algorithm
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/firstAlgorithm.png" width="600" height="400">
+
+
+
 
 
 
