@@ -63,6 +63,10 @@ I added a variable called spaceLength. This uses the rand() to get a number betw
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/symnolGaps.png" width="600" height="400"> 
 
+Now that I had one row printing perfectly the way I wanted. I was looking at recreating this loop but this time in the columns next. This would create the digital rain.
+My first idea was to place my row loop into a column loop. This would make it so it would print the first row and then move into the next column. However I ran into problems that it would print the first row, finsih printing the first row and then move into the next column.
+
+
 
 
 
