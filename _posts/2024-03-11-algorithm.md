@@ -17,7 +17,7 @@ I used the code above to get my random letter. This is done by doing the followi
 
 I did not want to have my random characters for my digital rain to be limited to just the 26 characters of the alphabet, and be lowercase. To extend this random function I took a look at the ascii table.
 
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/randomSymbol.png" width="600" height="100">
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/RandomSymbol.png" width="600" height="100">
 
 
 
