@@ -38,8 +38,7 @@ To print these random sybmols and characters like the screenshot above I used th
 To get these random sybmols onto the console i used the `operator<<` overload. I found this the easiest way to print straight to the console.
 I then created a for loop to go through the rows I had declared earlier in the code.
 As explained before I use the `rand()` function to get a random symbol
-I print the first symbol to the console. I now have to step below this character and print the next character. To do this I use a nested for loop
-Inside the nester for loop I redeclare the random symbol. I need to do this or the same symobl will be printed down the rows.
+I print the first symbol to the console. I now have to step below this character and print the next character. 
 For the `std::this_thread::sleep_for(std::chrono::second(1));` I included the `<chrono>` library and the `<thread>` library to use this standard library call. It works by pausing the operator for a second so the symbols print to the screen every second.
 
 
@@ -57,6 +56,12 @@ a
 s
 
 and so on. I wanted to create this affect so when I added more columns there would not be symbols beside eachother and look like a falling sentences and not rain drops.
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/algorithm3.png" width="600" height="400"> 
+
+I added a variable called spaceLength. This uses the rand() to get a number between 1 and 3. Depending on this number an `if` statement is used so that depending on this number a gap of 1 2 or 3 is made. This is dont by printing mulitple `std::endl`
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/symnolGaps.png" width="600" height="400"> 
 
 
 
