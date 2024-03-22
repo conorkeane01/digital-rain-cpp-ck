@@ -39,6 +39,28 @@ I also used a deconstructors then to deconstruct the matrix after it had been pr
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/deconstructor.png" width="600" height="400">
 
+There is also a copy constructor created when the code starts. I have this commented out so it does not affect the digital rain affect.
+
+
+In my `Matrix.h` headerfile I declare these constructors and deconstructors
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/matrixH.png" width="600" height="400">
+
+In my `TestMatrix.h` headerfile I am declaring the functions I will use. This is how I run and test my code
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/TestMatrixH.png" width="600" height="400">
+
+In my `main.cpp` file I have a try and catch around the `RunTests()` function so if any errors occur. Other than that all main does is run this function that is located in my `TestMatrix.cpp` file
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/mainCpp.png" width="600" height="400">
+
+In `TestMatrix.cpp` the `RunTests()` function is ran, it passes Matrix m into the `TestDefaultCstr` function which runs the constructors, deconstructors and prints the digital rain to the console.
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/TestMatrixCpp.png" width="600" height="400">
+
+
+
+
 
 
 
