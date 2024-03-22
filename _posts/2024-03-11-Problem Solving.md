@@ -5,7 +5,7 @@ tags: cpp coding project
 categories: demo
 ---
 
-##Problem Solving
+## Problem Solving
 
 This part of my blog will be about how I went about problem solving throughout my project.
 
