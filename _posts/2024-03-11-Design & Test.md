@@ -40,7 +40,7 @@ I also used a deconstructors then to deconstruct the matrix after it had been pr
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/deconstructor.png" width="600" height="400">
 
 There is also a copy constructor created when the code starts. I have this commented out so it does not affect the digital rain affect.
-
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/copyCon.png" width="600" height="400">
 
 In my `Matrix.h` headerfile I declare these constructors and deconstructors
 
