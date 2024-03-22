@@ -9,13 +9,13 @@ categories: demo
 
 This part of the blog will focus on the algorithm I used for printing the digital rain to the console 
 
-Starting out I first wanted to print a basic letter to the console. For the digital rain I wanted each letter printed to the console to be random. To do this `cstdlib` library must be included. Once that is done the rand() function can be called. 
+Starting out I first wanted to print a basic letter to the console. For the digital rain I wanted each letter printed to the console to be random. To do this `cstdlib` library must be included. Once that is done the `rand()` function can be called. 
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/randomLetter.png" width="600" height="100">
 
-I used the code above to get my random letter. This is done by doing the following. rand() % 26 + 'a' uses the ascii value of 'a', and selects a random integer within the range of 0 to 25. This means the random letter can be any lowercase letter between a to z. The static_cast<char> changes the random letter from an integer to a char value. This is needed as my vecture will print characters.
+I used the code above to get my random letter. This is done by doing the following. `rand() % 26 + 'a'` uses the ascii value of `a`, and selects a random integer within the range of 0 to 25. This means the random letter can be any lowercase letter between a to z. The `static_cast<char>` changes the random letter from an integer to a char value. This is needed as my vector will print characters.
 
-I did not want to have my random characters for my digital rain to be limited to just the 26 characters of the alphabet, and be lowercase. To extend this random function I took a look at the ascii table.
+I did not want to have my random characters for my digital rain to be limited to just the 26 characters of the alphabet, and be lowercase. To extend this random function I took a look at the ascii table `[4]`.
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/ascii1.png" width="600" height="400">
 
@@ -44,6 +44,7 @@ For the `std::this_thread::sleep_for(std::chrono::second(1));` I included the `<
 
 Once I had a row of random symbols, I again wanted to change it up and create a better "rain affect". I was going to do this by changing the spaces between the random symbols.
 For example:
+
 e 
 
 f
@@ -59,21 +60,21 @@ and so on. I wanted to create this affect so when I added more columns there wou
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/algorithm3.png" width="600" height="400"> 
 
-I added a variable called spaceLength. This uses the rand() to get a number between 1 and 3. Depending on this number an `if` statement is used so that depending on this number a gap of 1 2 or 3 is made. This is dont by printing mulitple `std::endl`
+I added a variable called `spaceLength`. This uses the `rand()` to get a number between 1 and 3. Depending on this number an `if` statement is used so that depending on this number a gap of 1 2 or 3 is made. This is done by printing mulitple `std::endl`
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/symbolGaps.png" width="600" height="400"> 
 
-Now that I had one row printing perfectly the way I wanted. I was looking at recreating this loop but this time in the columns next. This would create the digital rain.
+Now that I had one row printing perfectly the way I wanted. I was looking at recreating this loop but this time in new columns. This would create the digital rain.
 My first idea was to place my row loop into a column loop. This would make it so it would print the first row and then move into the next column. However I ran into problems that it would print the first row, finsih printing the first row and then move into the next column.
 
 I first decided to add a nested for loop like below. I hoped this would step through the columns and rows so that it gave me the digital rain affect I was looking for
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/nestedLoop.png" width="600" height="100"> 
 
-This loop created a boop in my earlier `if` statement, becuase i was using `std::endl;` this would not let the digital rain run into more columns and would just create a new line. I removed the `std::endl` and added `" "` instead so that it would still created random spacing.
+This loop created a bug in my earlier `if` statement, becuase I was using `std::endl;` this would not let the digital rain run into more columns and would just create a new line. I removed the `std::endl` and added `" "` instead so that it would still created random spacing.
 With this complete I had made my algorithm.
 
-###Final Algorithm
+### Final Algorithm
 In the algorithm I 
 - Use the `operater<<` overload
 - Have a nested for loop
@@ -87,21 +88,9 @@ In the algorithm I
 - `output << std::endl;` the random characters and symbols are printed to the console
 - `std::this_thread::sleep_for(std::chrono::milliseconds(150));` This delays the characters and symbols being printed to the cnsole like before.
 - `return output` the `operator <<` must return a value  
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/algorithm4.png" width="600" height="400"> 
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/algorithm4.png" width="600" height="400">
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
+This would be my alogrithm for printing Digital Rain to the console
 
 
 [Problem Solving](https://conorkeane01.github.io/digital-rain-cpp-ck/demo/2024/03/11/Problem-Solving.html)
