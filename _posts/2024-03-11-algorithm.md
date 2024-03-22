@@ -5,7 +5,7 @@ tags: cpp coding project
 categories: demo
 ---
 
-##Algorithm
+## Algorithm
 
 This part of the blog will focus on the algorithm I used for printing the digital rain to the console 
 
