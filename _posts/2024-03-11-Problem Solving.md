@@ -15,7 +15,7 @@ One of my major problems was getting used to the Object Oriented Programming sty
 
 I used class notes [7] and windows c++ documentation [1] to help get a grip on these changes and solve any problems I was having. Sites like StackOverFlow[6], GeeksforGeeks[5] and DigitalOcean[8] were also helpful websites for problems I ran into.
 
-Problems like changing the system colour to blue and then trying to figure out how to change it to a different colour or back to defualt. I encountered prblems here that would result in half my digital rain symbols being blue and the other half being white.
+Problems like changing the system colour to blue and then trying to figure out how to change it to a different colour or back to defualt. I encountered problems here that would result in half my digital rain symbols being blue and the other half being white.
 
 Problems also occured when trying to set up the `rand()` function and trying to get a completely random character. Most sites only explained how to get a random character from an already made set of characters. I used online sources like StackOverFlow and the ASCII documentation to get my random function to be of a wider range than what most sources were giving me. This gave my digital rain more characters to print and made it more random and less likely that the same character would be printed twice.
 
