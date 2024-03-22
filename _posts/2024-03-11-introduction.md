@@ -37,7 +37,7 @@ To achieve this the projects files are broken up into
   - Matrix.h
       - This header file will have the matrix class definition
       - Made up of both public and private class member data
-  -TestMatrix.h
+  - TestMatrix.h
       - Will declare and create the functions that will run in TestMatrix.cpp
 
 
