@@ -7,7 +7,7 @@ categories: demo
 
 ## Problem Solving
 
-This part of my blog will be about how I went about problem solving throughout my project.
+**This part of my blog will be about how I went about problem solving throughout my project.**
 
 I came across a lot of problems throughout my project especially when dealing with the object oriented style and algorithm.
 
