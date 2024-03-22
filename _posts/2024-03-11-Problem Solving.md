@@ -20,3 +20,6 @@ Problems like changing the system colour to blue and then trying to figure out h
 Problems also occured when trying to set up the `rand()` function and trying to get a completely random character. Most sites only explained how to get a random character from an already made set of characters. I used online sources like StackOverFlow and the ASCII documentation to get my random function to be of a wider range than what most sources were giving me. This gave my digital rain more characters to print and made it more random and less likely that the same character would be printed twice.
 
 I also ran into problems with my algorithm and nested for loops. Often my digital rain was not printing right or was not giving off the right affect. I fixed or worked on these problems by removing code in the loops, switching the loops around and adding more of a delay to printing the characters. Adding this delay and slowing down the digital rain gave me a better understanding of how charcaters and symbols were being printed to the screen to help with problem solving and debugging.
+
+
+[Algorithm](https://conorkeane01.github.io/digital-rain-cpp-ck/demo/2024/03/11/Algorithm.html)
