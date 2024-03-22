@@ -7,7 +7,7 @@ categories: demo
 
 ## Algorithm
 
-This part of the blog will focus on the algorithm I used for printing the digital rain to the console 
+**This part of the blog will focus on the algorithm I used for printing the digital rain to the console**
 
 Starting out I first wanted to print a basic letter to the console. For the digital rain I wanted each letter printed to the console to be random. To do this `cstdlib` library must be included. Once that is done the `rand()` function can be called. 
 
