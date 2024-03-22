@@ -14,7 +14,7 @@ Throughout my project I tried to use modern c++
 - For my digital rain printing, I use a vector to print out the random characters
 - To print out the vector I use a range loop which is apart of modern c++
 - In my range loops I use `auto`, `const` and the `&`. These are apart of the modern c++ and used to print out variables and pointers
-- The `<thread>` and `<chrono>` libraries are apart of modern c++ brought in c++11 to use the ` std::this_thread::sleep_for(std::chrono::milliseconds(150)` function I use to add a delay
+- The `<thread>` and `<chrono>` libraries are apart of modern c++ brought in c++11. I need these libraries to use the `std::this_thread::sleep_for(std::chrono::milliseconds(150)` function to add a delay
 
 Throughtout my project I used modern c++, sometimes without knowing. I think my code can also be improved by adding more moden c++, like using the lambda expression in my algorithm. 
 
