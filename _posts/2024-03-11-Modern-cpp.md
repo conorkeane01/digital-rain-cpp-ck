@@ -19,5 +19,5 @@ Throughout my project I tried to use modern c++
 Throughtout my project I used modern c++, sometimes without knowing. I think my code can also be improved by adding more moden c++, like using the lambda expression in my algorithm. 
 
 
-[Design & Test](https://conorkeane01.github.io/digital-rain-cpp-ck/demo/2024/03/11/Design & Test.html)
+[Design & Test](https://conorkeane01.github.io/digital-rain-cpp-ck/demo/2024/03/11/Design-&-Test.html)
 
