@@ -8,7 +8,7 @@ categories: demo
 
 **This part of the blog will focus on how I designed and tested my code.**
 
-I wanted my digital rain to be like rain and fall from the sceen row by row. For example the first 4 or 5 characters in row 1 would print, then row 2 would start and so on and so forth. Something like this:
+I wanted my digital rain to be like rain and fall from the sceen vertically. For example the first 4 or 5 characters would print vertically, then column 2 would start and print characters vertically, and so on and so forth. Something like this:
 
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/rainLetters.png" width="600" height="400">
 
