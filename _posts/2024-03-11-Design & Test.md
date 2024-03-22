@@ -33,6 +33,13 @@ I designed my code also using `system("Color 09)`. This changed the colour of th
 
 My code used Object Oriented programming. This meant I could use constructors and deconstructors. To take advantage of this I used a default constructor to set the value for rows and columns 
 
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/settingValues.png" width="600" height="400">
+
+I also used a deconstructors then to deconstruct the matrix after it had been printed. I also left a design in the deconstructor too as a way of signalling that the digital rain had finished.
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/deconstructor.png" width="600" height="400">
+
+
 
 
 
