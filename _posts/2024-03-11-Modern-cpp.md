@@ -5,31 +5,16 @@ tags: cpp coding project
 categories: demo
 ---
 
-This is my first paragraph...
+## Modern CPP
 
-## This is a Heading
+**This part of the blog is about modern c++ and how I used it in my project**
 
-This is a paragraph. Add an empty line to start a new paragraph.
+Throughout my project I tried to use modern c++ 
+- I use the standard library in many cases. The `<cstdlib>` library is the modern c++ library for random characters
+- For my digital rain printing, I use a vector to print out the random characters
+- To print out the vector I use a range loop which is apart of modern c++
+- In my range loops I use `auto`, `const` and the `&`. These are apart of the modern c++ and used to print out variables and pointers
+- The `<thread>` and `<chrono>` libraries are apart of modern c++ brought in c++11 to use the ` std::this_thread::sleep_for(std::chrono::milliseconds(150)` function I use to add a delay
 
-Font can be *Italic* or **Bold**.
+Throughtout my project I used modern c++, sometimes without knowing. I think my code can also be improved by adding more moden c++, like using the lambda expression in my algorithm. 
 
-Code can be highlighted with 'backticks'.
-
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list:
-
-- vectors
-- algorithms
-- iterators
-
-You can add an impage that has been uploaded to the repository in a /docs/assets/images folder.
-
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/Code.png" width="400" height="300">
-
----
-layout: post
-title: A Project in Modern C++
-tags: cpp coding project
-categories: demo
----
