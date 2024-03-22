@@ -68,10 +68,12 @@ My first idea was to place my row loop into a column loop. This would make it so
 
 I first decided to add a nested for loop like below. I hoped this would step through the columns and rows so that it gave me the digital rain affect I was looking for
 
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/nestedLoop.png" width="600" height="400"> 
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/nestedLoop.png" width="600" height="200"> 
 
 This loop created a boop in my earlier `if` statement, becuase i was using `std::endl;` this would not let the digital rain run into more columns and would just create a new line. I removed the `std::endl` and added `" "` instead so that it would still created random spacing.
 With this complete I had made my algorithm.
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/nestedLoop.png" width="600" height="400"> 
 
 
 
