@@ -6,11 +6,11 @@ categories: demo
 ---
 ## Design and Test
 
-This part of the blog will focus on how I designed and tested my code.
+**This part of the blog will focus on how I designed and tested my code.**
 
 I wanted my digital rain to be like rain and fall from the sceen row by row. For example the first 4 or 5 characters in row 1 would print, then row 2 would start and so on and so forth. Something like this:
 
-
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/rainLetters.png" width="600" height="400">
 
 and so on until all the characters would fill the rows and columns
 
@@ -18,7 +18,7 @@ I based my algorithm around this. I beileved once I got the first row printing t
 
 As I did not have the time, I had to work on a different design and used a nested for loop. This made it so the characters were being printed column by column like how you would write left to right. The characters were being printed in a right to left kind of format rather than vertically down the screen like I wanted.
 
-
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/wrongDigitalRain.png" width="600" height="400">
 
 This did not give the "rain" affect I wanted.
 
