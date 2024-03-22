@@ -61,11 +61,14 @@ and so on. I wanted to create this affect so when I added more columns there wou
 
 I added a variable called spaceLength. This uses the rand() to get a number between 1 and 3. Depending on this number an `if` statement is used so that depending on this number a gap of 1 2 or 3 is made. This is dont by printing mulitple `std::endl`
 
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/symnolGaps.png" width="600" height="400"> 
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/symbolGaps.png" width="600" height="400"> 
 
 Now that I had one row printing perfectly the way I wanted. I was looking at recreating this loop but this time in the columns next. This would create the digital rain.
 My first idea was to place my row loop into a column loop. This would make it so it would print the first row and then move into the next column. However I ran into problems that it would print the first row, finsih printing the first row and then move into the next column.
 
+I first decided to add a nested for loop like below. I hoped this would step through the columns and rows so that it gave me the digital rain affect I was looking for
+
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/syGaps.png" width="600" height="400"> 
 
 
 
