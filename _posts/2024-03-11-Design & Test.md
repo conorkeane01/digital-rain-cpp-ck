@@ -41,7 +41,7 @@ In my `Matrix.h` headerfile I declare these constructors and deconstructors
 
 In my `TestMatrix.h` headerfile I am declaring the functions I will use. This is how I run and test my code
 
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/TestMatrixH.png" width="600" height="400">
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/newTestMatrixh.png" width="600" height="400">
 
 In my `main.cpp` file I have a try and catch around the `RunTests()` function so if any errors occur. Other than that all main does is run this function that is located in my `TestMatrix.cpp` file
 
@@ -49,7 +49,7 @@ In my `main.cpp` file I have a try and catch around the `RunTests()` function so
 
 In `TestMatrix.cpp` the `RunTests()` function is ran, it passes Matrix m into the `TestDefaultCstr` function which runs the constructors, deconstructors and prints the digital rain to the console.
 
-<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/TestMatrixCpp.png" width="600" height="400">
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/newTestMatrixcpp.png" width="600" height="400">
 
 
 [More About This Project](https://conorkeane01.github.io/digital-rain-cpp-ck/posts/2024-03-11-digital-rain-cpp.html)
