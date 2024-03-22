@@ -90,7 +90,9 @@ In the algorithm I
 - `return output` the `operator <<` must return a value  
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/algorithm4.png" width="600" height="400">
 
-This would be my alogrithm for printing Digital Rain to the console
+This would be my alogrithm for printing Digital Rain to the console.
+The digital rain would look like below
 
+<img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/rain.png" width="600" height="400">
 
 [Problem Solving](https://conorkeane01.github.io/digital-rain-cpp-ck/demo/2024/03/11/Problem-Solving.html)
