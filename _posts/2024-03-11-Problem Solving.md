@@ -13,7 +13,7 @@ I came across a lot of problems throughout my project especially when dealing wi
 
 One of my major problems was getting used to the Object Oriented Programming style. I was not used to the creating of constructors and deconstructors. This mixed with the new c++ I was learning made it very difficult at times for me.
 
-I used class notes and windows c++ documentation to help get a grip on these changes and solve any problems I was having. Sites like StackOverFlow, GeeksforGeeks and DigitalOcean were also helpful websites for problems I ran into.
+I used class notes [7] and windows c++ documentation [1] to help get a grip on these changes and solve any problems I was having. Sites like StackOverFlow[6], GeeksforGeeks[5] and DigitalOcean[8] were also helpful websites for problems I ran into.
 
 Problems like changing the system colour to blue and then trying to figure out how to change it to a different colour or back to defualt. I encountered prblems here that would result in half my digital rain symbols being blue and the other half being white.
 
