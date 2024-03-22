@@ -4,7 +4,7 @@ title: Design & Test
 tags: cpp coding project
 categories: demo
 ---
-##Design and Test
+## Design and Test
 
 This part of the blog will focus on how I designed and tested my code.
 
