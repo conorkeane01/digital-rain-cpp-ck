@@ -21,6 +21,7 @@ Stack Overflow. (n.d.). How to select random letters in c++. [online] Available 
 
 Lynch.M. (2024). C++ Programming. [Lecture Notes] `[7]`
 
+www.digitalocean.com. (n.d.). How to Create a Random Number Generator in C++ | DigitalOcean. [online] Available at: https://www.digitalocean.com/community/tutorials/random-number-generator-c-plus-plus. `[8]`
 
 [Home](https://conorkeane01.github.io/digital-rain-cpp-ck)
 
