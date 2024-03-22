@@ -73,7 +73,23 @@ I first decided to add a nested for loop like below. I hoped this would step thr
 This loop created a boop in my earlier `if` statement, becuase i was using `std::endl;` this would not let the digital rain run into more columns and would just create a new line. I removed the `std::endl` and added `" "` instead so that it would still created random spacing.
 With this complete I had made my algorithm.
 
+###Final Algorithm
+In the algorithm I 
+- Use the `operater<<` overload
+- Have a nested for loop
+   - `for(auto i = 0; i < m.GetRows(); ++i` steps through the rows of the matrix
+   - `for(auto j = 0; j < m.GetCols(); ++j` steps through the columns of the matrix
+- `std::vector<char> rowChars;` creates a vector of the standard library to recieve in characters
+- `char randomChar = static_cast<char>(rand() % 126 + '!');` adds a random character to value like explained earlier
+- `rowChars.push_back(randomChar);` Adds the random character to the back of the vector
+- `for (auto const& ch : rowChars) ` this range loop is used to print out the vector to the console
+- The `spaceLength` `if` statement is used to add random spaces to the console to space out characters and give a better digital rain affect
+- `output << std::endl;` the random characters and symbols are printed to the console
+- `std::this_thread::sleep_for(std::chrono::milliseconds(150));` This delays the characters and symbols being printed to the cnsole like before.
+- `return output` the `operator <<` must return a value  
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/algorithm4.png" width="600" height="400"> 
+
+ 
 
 
 
