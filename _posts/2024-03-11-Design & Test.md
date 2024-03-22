@@ -9,6 +9,7 @@ categories: demo
 This part of the blog will focus on how I designed and tested my code.
 
 I wanted my digital rain to be like rain and fall from the sceen row by row. For example the first 4 or 5 characters in row 1 would print, then row 2 would start and so on and so forth. Something like this:
+
 a l a j
 f q f y
 c x h i
