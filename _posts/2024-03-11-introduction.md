@@ -33,10 +33,12 @@ To achieve this the projects files are broken up into
       - Will be made up of constructors and deconstructors
       - The algorithm used to print the digital rain will be in this file
   - TestMatrix.cpp
+      - This will run the function to print to the console, delete and copy constructors
   - Matrix.h
       - This header file will have the matrix class definition
       - Made up of both public and private class member data
   -TestMatrix.h
+      - Will declare and create the functions that will run in TestMatrix.cpp
 
 
 
