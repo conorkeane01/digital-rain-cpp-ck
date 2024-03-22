@@ -59,6 +59,8 @@ In `TestMatrix.cpp` the `RunTests()` function is ran, it passes Matrix m into th
 <img src="https://raw.githubusercontent.com/conorkeane01/digital-rain-cpp-ck/main/docs/assets/images/TestMatrixCpp.png" width="600" height="400">
 
 
+[More About This Project](https://conorkeane01.github.io/digital-rain-cpp-ck/posts/2024-03-11-digital-rain-cpp.html)
+
 
 
 
