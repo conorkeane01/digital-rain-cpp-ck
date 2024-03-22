@@ -17,6 +17,8 @@ The vlog is broken into the following sections
   - Modern C++
   - Design and Test
 
+In the top right there is a **More About this Project** link where I will reference any sources I used and add any more to the project
+
 This project is about printing a digital rain or "Matrix" affect to the console.
 The IDE used in this project is Microsoft Visual Studio. This IDE is ideal for c++ programming due to its c++ extensions as well as its affective ability to help debug code. 
 The project code is written using modern C++. This means using modern c++ coding styles like 
